@@ -1,0 +1,9 @@
+{
+  "navigation": {
+    "adult": "adult",
+    "webtoon": "webtoon",
+    "searchPlaceholder": "Bạn có thể tìm kiếm bằng tên truyện",
+    "login": "Đăng Nhập"
+  }
+ 
+}
