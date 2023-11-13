@@ -1,9 +1,11 @@
 {
+  
   "navigation": {
+    "brand": "LightNovel",
     "adult": "adult",
     "webtoon": "webtoon",
     "searchPlaceholder": "You can search by title.",
-    "login": "login"
+    "login": "Login"
   }
  
 }

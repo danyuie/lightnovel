@@ -1,9 +1,10 @@
 {
   "navigation": {
+    "brand": "LightNovel VN",
     "adult": "adult",
     "webtoon": "webtoon",
-    "searchPlaceholder": "Bạn có thể tìm kiếm bằng tên truyện",
-    "login": "Đăng Nhập"
+    "searchPlaceholder": "Tìm kiếm bằng tên truyện.",
+    "login": "Đăng Nhập" 
   }
  
 }

@@ -1,5 +1,4 @@
 import type { Config } from 'tailwindcss'
-
 const config: Config = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -14,25 +13,12 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      dropShadow: {
+        'dropdown': '0px 5px 5px rgba(0, 0, 0, 0.05)',
+
+      }
     },
-    fontSize: {
-      'sm': ['1.5rem', {
-        lineHeight: '2rem',
-        letterSpacing: '-0.01em',
-        fontWeight: '500',
-      }],
-      'md': ['1.875rem', {
-        lineHeight: '2.25rem',
-        letterSpacing: '-0.02em',
-        fontWeight: '700',
-      }],
-      'lg': ['1.875rem', {
-        lineHeight: '2.25rem',
-        letterSpacing: '-0.02em',
-        fontWeight: '700',
-      }],
-    }
   },
-  plugins: [],
+
 }
 export default config
