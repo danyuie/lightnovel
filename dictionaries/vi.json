@@ -4,7 +4,22 @@
     "adult": "adult",
     "webtoon": "webtoon",
     "searchPlaceholder": "Tìm kiếm bằng tên truyện.",
-    "login": "Đăng Nhập" 
+    "login": "Đăng Nhập",
+    "user": {
+      "profile": "Trang cá nhân",
+      "donate": "Ủng hộ",
+      "favorites": "Yêu thích",
+      "logout":"Đăng xuất"
+    }
+  },
+  "navbar": {
+    "home":"Trang Chủ",
+    "novel":"Novel",
+    "manhwa":"Manhwa",
+    "manhua":"Manhua",
+    "manga":"Manga",
+    "category":"Thể Loại",
+    "forum":"Forum"
   }
  
 }

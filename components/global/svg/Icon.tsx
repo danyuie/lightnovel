@@ -1,7 +1,7 @@
 import React from 'react'
-import { iconLibrary } from './IconLibrary'
+import { iconLibrary } from '@/components/global/svg/IconLibrary'
 
-export type IconNameType = 'Search' | 'Globe' | 'Sun' | 'Moon' | 'Desktop'
+export type IconNameType = 'Search' | 'Globe' | 'Sun' | 'Moon' | 'Desktop' |'Profile' | 'Donate' | 'Favorites' | 'Logout'
 
 type Props = {
   name: IconNameType,

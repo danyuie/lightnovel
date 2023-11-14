@@ -1,9 +1,11 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import { Locale, i18n } from '@/i18n.config'
-import Navigation from './components/global/Navigation/Navigation'
-import Providers from './components/theme/Providers'
+import Navigation from '@/components/global/Navigation/Navigation'
+// import Providers from '@/components/global/Providers'
 import { Archivo } from 'next/font/google'
+import Providers from '@/components/global/Providers'
+import NavLinks from '@/components/global/Navigation/NavLinks'
 
 const archivo = Archivo({
   weight: ['400', '500', '600', '700', '800', '900'],
@@ -31,6 +33,7 @@ export default function RootLayout({
       <body>
         <Providers>
           <Navigation lang={params.lang} />
+          <NavLinks lang={params.lang}/>
           {children}
         </Providers>
       </body>

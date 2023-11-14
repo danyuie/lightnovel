@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { i18n } from '@/i18n.config'
-import Icon from '../svg/Icon';
+import Icon from '@/components/global/svg/Icon';
 import { useRef, useState } from 'react';
 
 export default function LocaleSwitcher() {
@@ -23,7 +23,7 @@ export default function LocaleSwitcher() {
         <div className='w-4 h-4 flex items-center justify-center'><Icon name='Globe'/></div>
         <div>{pathName.split('/')[1]==='vi'?'Ngôn Ngữ':'Language'}</div>
       </div>
-      {open && <div className={`flex absolute top-8 w-fit left-0 rounded-lg border border-gray-200 p-3 grid-cols-2 gap-1 bg-white drop-shadow-dropdown dark:bg-neutral-900 dark:border-neutral-800`}>
+      {open && <div className={`flex absolute top-12 w-fit left-1/2 -translate-x-1/2 rounded-lg border border-gray-200 p-3 grid-cols-2 gap-1 bg-white drop-shadow-dropdown dark:bg-neutral-900 dark:border-neutral-800`}>
       {i18n.locales.map(locale => {
         return (
           <div key={locale}>

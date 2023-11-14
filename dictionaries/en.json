@@ -1,11 +1,25 @@
 {
-  
   "navigation": {
     "brand": "LightNovel",
     "adult": "adult",
     "webtoon": "webtoon",
     "searchPlaceholder": "You can search by title.",
-    "login": "Login"
+    "login": "Login",
+    "user": {
+      "profile": "Profile",
+      "donate": "Donate",
+      "favorites": "Favorites",
+      "logout":"Logout"
+    }
+  },
+  "navbar": {
+    "home":"Home",
+    "novel":"Novel",
+    "manhwa":"Manhwa",
+    "manhua":"Manhua",
+    "manga":"Manga",
+    "category":"Category",
+    "forum":"Forum"
   }
  
 }
