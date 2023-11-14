@@ -5,7 +5,7 @@ import Navigation from '@/components/global/Navigation/Navigation'
 // import Providers from '@/components/global/Providers'
 import { Archivo } from 'next/font/google'
 import Providers from '@/components/global/Providers'
-import NavLinks from '@/components/global/Navigation/NavLinks'
+import NavLinks from '@/components/global/Navigation/NavbarLinks'
 
 const archivo = Archivo({
   weight: ['400', '500', '600', '700', '800', '900'],

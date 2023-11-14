@@ -3,10 +3,8 @@ import { getDictionary } from '@/lib/dictionary'
 import LocaleSwitcher from '@/components/global/Navigation/LocaleSwitcher'
 import ThemeSwitcher from '@/components/theme/ThemeSwitcher'
 import Search from '@/components/ui/Search'
-import { Button } from '@/components/ui/Button'
 import { getAuthSession } from '@/lib/nextauth'
 import SignInButton from '@/components/auth/SignInButton'
-import { signIn } from 'next-auth/react'
 import UserAccount from './UserAccount'
 
 export default async function Navigation({ lang }: { lang: Locale }) {

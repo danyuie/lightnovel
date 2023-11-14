@@ -20,8 +20,8 @@ const UserAccount = ({name, email, image, context}: Props) => {
   const [open, setOpen] = useState(false)
 
   return (
-    <div onClick={()=>setOpen(!open)} className='relative'>
-      <div className='overflow-hidden rounded-full'>
+    <div onClick={()=>setOpen(!open)} className='relative cursor-pointer'>
+      <div className='overflow-hidden rounded-full border border-gray-200 dark:border-neutral-800'>
         <Image src={image} alt='' height={40} width={40} ></Image>
       </div>
       {open && (
