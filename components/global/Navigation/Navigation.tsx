@@ -21,7 +21,7 @@ export default async function Navigation({ lang }: { lang: Locale }) {
           <div className='w-[1px] h-[13px] bg-gray-200 dark:bg-neutral-700'></div>
           <div className='text-base font-semibold tracking-tighter text-gray-300 capitalize dark:text-neutral-700'>{navigation.webtoon}</div>
         </div>
-        <div className='flex items-center gap-6'>
+        <div className='flex items-center gap-3'>
           <Search placeholder={navigation.searchPlaceholder} />
           <LocaleSwitcher />
           <ThemeSwitcher lang={lang}/>
